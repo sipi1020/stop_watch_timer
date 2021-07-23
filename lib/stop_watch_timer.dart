@@ -240,7 +240,7 @@ class StopWatchTimer {
 
   /// Set preset time. 1000 mSec => 1 sec
   void setPresetTime({required int mSec}) {
-    _presetTime += mSec;
+    _presetTime = mSec;
     _elapsedTime.add(_presetTime);
   }
 
